@@ -1,0 +1,49 @@
+.user-cont {
+  display: flex;
+  align-items: center;
+}
+
+.initial-circle {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+  color: #fff;
+  background-color: skyblue;
+  margin-right: 10px;
+}
+
+.user {
+  margin-right: 10px;
+}
+.text {
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 10px;
+  padding: 10px;
+  background-color: #f0f0f0;
+  display: inline-block;
+  margin: 0;
+  margin-right: 10px;
+}
+
+.message-cont {
+  display: flex;
+  align-items: center;
+}
+
+.likes-count {
+  border: 2px solid black;
+  background-color: yellow;
+  color: black;
+  font-size: 14px;
+  padding: 5px 10px; /* Vertical | Horizontal padding */
+  border-radius: 8px; /* Rounded corners */
+  cursor: pointer; /* Change cursor on hover */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
